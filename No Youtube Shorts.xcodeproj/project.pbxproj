@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5FFA70F2B4C2FF1007C8919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA70E2B4C2FF1007C8919 /* AppDelegate.swift */; };
+		C5FFA7112B4C2FF1007C8919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA7102B4C2FF1007C8919 /* SceneDelegate.swift */; };
+		C5FFA7142B4C2FF1007C8919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7122B4C2FF1007C8919 /* LaunchScreen.storyboard */; };
+		C5FFA7172B4C2FF1007C8919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7152B4C2FF1007C8919 /* Main.storyboard */; };
+		C5FFA7202B4C2FF2007C8919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA71F2B4C2FF2007C8919 /* AppDelegate.swift */; };
+		C5FFA7232B4C2FF2007C8919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7212B4C2FF2007C8919 /* Main.storyboard */; };
+		C5FFA72A2B4C2FF2007C8919 /* No Youtube Shorts Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C5FFA7292B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5FFA7342B4C2FF2007C8919 /* No Youtube Shorts Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C5FFA7332B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5FFA73A2B4C2FF2007C8919 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F52B4C2FED007C8919 /* Main.html */; };
+		C5FFA73B2B4C2FF2007C8919 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F52B4C2FED007C8919 /* Main.html */; };
+		C5FFA73C2B4C2FF2007C8919 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F72B4C2FED007C8919 /* Icon.png */; };
+		C5FFA73D2B4C2FF2007C8919 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F72B4C2FED007C8919 /* Icon.png */; };
+		C5FFA73E2B4C2FF2007C8919 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F82B4C2FED007C8919 /* Style.css */; };
+		C5FFA73F2B4C2FF2007C8919 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F82B4C2FED007C8919 /* Style.css */; };
+		C5FFA7402B4C2FF2007C8919 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F92B4C2FED007C8919 /* Script.js */; };
+		C5FFA7412B4C2FF2007C8919 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6F92B4C2FED007C8919 /* Script.js */; };
+		C5FFA7422B4C2FF2007C8919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA6FA2B4C2FED007C8919 /* ViewController.swift */; };
+		C5FFA7432B4C2FF2007C8919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA6FA2B4C2FED007C8919 /* ViewController.swift */; };
+		C5FFA7442B4C2FF2007C8919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6FB2B4C2FF1007C8919 /* Assets.xcassets */; };
+		C5FFA7452B4C2FF2007C8919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6FB2B4C2FF1007C8919 /* Assets.xcassets */; };
+		C5FFA7462B4C2FF2007C8919 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA6FD2B4C2FF1007C8919 /* SafariWebExtensionHandler.swift */; };
+		C5FFA7472B4C2FF2007C8919 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFA6FD2B4C2FF1007C8919 /* SafariWebExtensionHandler.swift */; };
+		C5FFA7482B4C2FF2007C8919 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6FF2B4C2FF1007C8919 /* _locales */; };
+		C5FFA7492B4C2FF2007C8919 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA6FF2B4C2FF1007C8919 /* _locales */; };
+		C5FFA74A2B4C2FF2007C8919 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7002B4C2FF1007C8919 /* images */; };
+		C5FFA74B2B4C2FF2007C8919 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7002B4C2FF1007C8919 /* images */; };
+		C5FFA74C2B4C2FF2007C8919 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7012B4C2FF1007C8919 /* manifest.json */; };
+		C5FFA74D2B4C2FF2007C8919 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7012B4C2FF1007C8919 /* manifest.json */; };
+		C5FFA74E2B4C2FF2007C8919 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7022B4C2FF1007C8919 /* background.js */; };
+		C5FFA74F2B4C2FF2007C8919 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7022B4C2FF1007C8919 /* background.js */; };
+		C5FFA7502B4C2FF2007C8919 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7032B4C2FF1007C8919 /* content.js */; };
+		C5FFA7512B4C2FF2007C8919 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7032B4C2FF1007C8919 /* content.js */; };
+		C5FFA7522B4C2FF2007C8919 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7042B4C2FF1007C8919 /* popup.html */; };
+		C5FFA7532B4C2FF2007C8919 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7042B4C2FF1007C8919 /* popup.html */; };
+		C5FFA7542B4C2FF2007C8919 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7052B4C2FF1007C8919 /* popup.css */; };
+		C5FFA7552B4C2FF2007C8919 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7052B4C2FF1007C8919 /* popup.css */; };
+		C5FFA7562B4C2FF2007C8919 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7062B4C2FF1007C8919 /* popup.js */; };
+		C5FFA7572B4C2FF2007C8919 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA7062B4C2FF1007C8919 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5FFA72B2B4C2FF2007C8919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FFA6EF2B4C2FED007C8919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FFA7282B4C2FF2007C8919;
+			remoteInfo = "No Youtube Shorts Extension (iOS)";
+		};
+		C5FFA7352B4C2FF2007C8919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FFA6EF2B4C2FED007C8919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FFA7322B4C2FF2007C8919;
+			remoteInfo = "No Youtube Shorts Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5FFA75D2B4C2FF2007C8919 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C5FFA72A2B4C2FF2007C8919 /* No Youtube Shorts Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7642B4C2FF2007C8919 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C5FFA7342B4C2FF2007C8919 /* No Youtube Shorts Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C5FFA6F62B4C2FED007C8919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C5FFA6F72B4C2FED007C8919 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C5FFA6F82B4C2FED007C8919 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C5FFA6F92B4C2FED007C8919 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C5FFA6FA2B4C2FED007C8919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5FFA6FB2B4C2FF1007C8919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FFA6FD2B4C2FF1007C8919 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C5FFA6FF2B4C2FF1007C8919 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C5FFA7002B4C2FF1007C8919 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C5FFA7012B4C2FF1007C8919 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C5FFA7022B4C2FF1007C8919 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		C5FFA7032B4C2FF1007C8919 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C5FFA7042B4C2FF1007C8919 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		C5FFA7052B4C2FF1007C8919 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		C5FFA7062B4C2FF1007C8919 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		C5FFA70B2B4C2FF1007C8919 /* No Youtube Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Youtube Shorts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFA70E2B4C2FF1007C8919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5FFA7102B4C2FF1007C8919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5FFA7132B4C2FF1007C8919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5FFA7162B4C2FF1007C8919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FFA7182B4C2FF1007C8919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FFA71D2B4C2FF2007C8919 /* No Youtube Shorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Youtube Shorts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFA71F2B4C2FF2007C8919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5FFA7222B4C2FF2007C8919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FFA7242B4C2FF2007C8919 /* No Youtube Shorts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "No Youtube Shorts.entitlements"; sourceTree = "<group>"; };
+		C5FFA7292B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "No Youtube Shorts Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFA72E2B4C2FF2007C8919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FFA7332B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "No Youtube Shorts Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFA7382B4C2FF2007C8919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FFA7392B4C2FF2007C8919 /* No Youtube Shorts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "No Youtube Shorts.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FFA7082B4C2FF1007C8919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA71A2B4C2FF2007C8919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7262B4C2FF2007C8919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7302B4C2FF2007C8919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5FFA6EE2B4C2FED007C8919 = {
+			isa = PBXGroup;
+			children = (
+				C5FFA6F32B4C2FED007C8919 /* Shared (App) */,
+				C5FFA6FC2B4C2FF1007C8919 /* Shared (Extension) */,
+				C5FFA70D2B4C2FF1007C8919 /* iOS (App) */,
+				C5FFA71E2B4C2FF2007C8919 /* macOS (App) */,
+				C5FFA72D2B4C2FF2007C8919 /* iOS (Extension) */,
+				C5FFA7372B4C2FF2007C8919 /* macOS (Extension) */,
+				C5FFA70C2B4C2FF1007C8919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FFA6F32B4C2FED007C8919 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA6FA2B4C2FED007C8919 /* ViewController.swift */,
+				C5FFA6FB2B4C2FF1007C8919 /* Assets.xcassets */,
+				C5FFA6F42B4C2FED007C8919 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C5FFA6F42B4C2FED007C8919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA6F52B4C2FED007C8919 /* Main.html */,
+				C5FFA6F72B4C2FED007C8919 /* Icon.png */,
+				C5FFA6F82B4C2FED007C8919 /* Style.css */,
+				C5FFA6F92B4C2FED007C8919 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5FFA6FC2B4C2FF1007C8919 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA6FD2B4C2FF1007C8919 /* SafariWebExtensionHandler.swift */,
+				C5FFA6FE2B4C2FF1007C8919 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C5FFA6FE2B4C2FF1007C8919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA6FF2B4C2FF1007C8919 /* _locales */,
+				C5FFA7002B4C2FF1007C8919 /* images */,
+				C5FFA7012B4C2FF1007C8919 /* manifest.json */,
+				C5FFA7022B4C2FF1007C8919 /* background.js */,
+				C5FFA7032B4C2FF1007C8919 /* content.js */,
+				C5FFA7042B4C2FF1007C8919 /* popup.html */,
+				C5FFA7052B4C2FF1007C8919 /* popup.css */,
+				C5FFA7062B4C2FF1007C8919 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5FFA70C2B4C2FF1007C8919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA70B2B4C2FF1007C8919 /* No Youtube Shorts.app */,
+				C5FFA71D2B4C2FF2007C8919 /* No Youtube Shorts.app */,
+				C5FFA7292B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */,
+				C5FFA7332B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FFA70D2B4C2FF1007C8919 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA70E2B4C2FF1007C8919 /* AppDelegate.swift */,
+				C5FFA7102B4C2FF1007C8919 /* SceneDelegate.swift */,
+				C5FFA7122B4C2FF1007C8919 /* LaunchScreen.storyboard */,
+				C5FFA7152B4C2FF1007C8919 /* Main.storyboard */,
+				C5FFA7182B4C2FF1007C8919 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C5FFA71E2B4C2FF2007C8919 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA71F2B4C2FF2007C8919 /* AppDelegate.swift */,
+				C5FFA7212B4C2FF2007C8919 /* Main.storyboard */,
+				C5FFA7242B4C2FF2007C8919 /* No Youtube Shorts.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C5FFA72D2B4C2FF2007C8919 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA72E2B4C2FF2007C8919 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C5FFA7372B4C2FF2007C8919 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFA7382B4C2FF2007C8919 /* Info.plist */,
+				C5FFA7392B4C2FF2007C8919 /* No Youtube Shorts.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FFA70A2B4C2FF1007C8919 /* No Youtube Shorts (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFA75E2B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts (iOS)" */;
+			buildPhases = (
+				C5FFA7072B4C2FF1007C8919 /* Sources */,
+				C5FFA7082B4C2FF1007C8919 /* Frameworks */,
+				C5FFA7092B4C2FF1007C8919 /* Resources */,
+				C5FFA75D2B4C2FF2007C8919 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FFA72C2B4C2FF2007C8919 /* PBXTargetDependency */,
+			);
+			name = "No Youtube Shorts (iOS)";
+			productName = "No Youtube Shorts (iOS)";
+			productReference = C5FFA70B2B4C2FF1007C8919 /* No Youtube Shorts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5FFA71C2B4C2FF2007C8919 /* No Youtube Shorts (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFA7652B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts (macOS)" */;
+			buildPhases = (
+				C5FFA7192B4C2FF2007C8919 /* Sources */,
+				C5FFA71A2B4C2FF2007C8919 /* Frameworks */,
+				C5FFA71B2B4C2FF2007C8919 /* Resources */,
+				C5FFA7642B4C2FF2007C8919 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FFA7362B4C2FF2007C8919 /* PBXTargetDependency */,
+			);
+			name = "No Youtube Shorts (macOS)";
+			productName = "No Youtube Shorts (macOS)";
+			productReference = C5FFA71D2B4C2FF2007C8919 /* No Youtube Shorts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5FFA7282B4C2FF2007C8919 /* No Youtube Shorts Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFA75A2B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts Extension (iOS)" */;
+			buildPhases = (
+				C5FFA7252B4C2FF2007C8919 /* Sources */,
+				C5FFA7262B4C2FF2007C8919 /* Frameworks */,
+				C5FFA7272B4C2FF2007C8919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "No Youtube Shorts Extension (iOS)";
+			productName = "No Youtube Shorts Extension (iOS)";
+			productReference = C5FFA7292B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C5FFA7322B4C2FF2007C8919 /* No Youtube Shorts Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFA7612B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts Extension (macOS)" */;
+			buildPhases = (
+				C5FFA72F2B4C2FF2007C8919 /* Sources */,
+				C5FFA7302B4C2FF2007C8919 /* Frameworks */,
+				C5FFA7312B4C2FF2007C8919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "No Youtube Shorts Extension (macOS)";
+			productName = "No Youtube Shorts Extension (macOS)";
+			productReference = C5FFA7332B4C2FF2007C8919 /* No Youtube Shorts Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FFA6EF2B4C2FED007C8919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C5FFA70A2B4C2FF1007C8919 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C5FFA71C2B4C2FF2007C8919 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C5FFA7282B4C2FF2007C8919 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C5FFA7322B4C2FF2007C8919 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = C5FFA6F22B4C2FED007C8919 /* Build configuration list for PBXProject "No Youtube Shorts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FFA6EE2B4C2FED007C8919;
+			productRefGroup = C5FFA70C2B4C2FF1007C8919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FFA70A2B4C2FF1007C8919 /* No Youtube Shorts (iOS) */,
+				C5FFA71C2B4C2FF2007C8919 /* No Youtube Shorts (macOS) */,
+				C5FFA7282B4C2FF2007C8919 /* No Youtube Shorts Extension (iOS) */,
+				C5FFA7322B4C2FF2007C8919 /* No Youtube Shorts Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FFA7092B4C2FF1007C8919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA73C2B4C2FF2007C8919 /* Icon.png in Resources */,
+				C5FFA7142B4C2FF1007C8919 /* LaunchScreen.storyboard in Resources */,
+				C5FFA73A2B4C2FF2007C8919 /* Main.html in Resources */,
+				C5FFA7402B4C2FF2007C8919 /* Script.js in Resources */,
+				C5FFA7442B4C2FF2007C8919 /* Assets.xcassets in Resources */,
+				C5FFA7172B4C2FF1007C8919 /* Main.storyboard in Resources */,
+				C5FFA73E2B4C2FF2007C8919 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA71B2B4C2FF2007C8919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA73D2B4C2FF2007C8919 /* Icon.png in Resources */,
+				C5FFA73F2B4C2FF2007C8919 /* Style.css in Resources */,
+				C5FFA7232B4C2FF2007C8919 /* Main.storyboard in Resources */,
+				C5FFA7412B4C2FF2007C8919 /* Script.js in Resources */,
+				C5FFA7452B4C2FF2007C8919 /* Assets.xcassets in Resources */,
+				C5FFA73B2B4C2FF2007C8919 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7272B4C2FF2007C8919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA74E2B4C2FF2007C8919 /* background.js in Resources */,
+				C5FFA7542B4C2FF2007C8919 /* popup.css in Resources */,
+				C5FFA7522B4C2FF2007C8919 /* popup.html in Resources */,
+				C5FFA74A2B4C2FF2007C8919 /* images in Resources */,
+				C5FFA74C2B4C2FF2007C8919 /* manifest.json in Resources */,
+				C5FFA7482B4C2FF2007C8919 /* _locales in Resources */,
+				C5FFA7502B4C2FF2007C8919 /* content.js in Resources */,
+				C5FFA7562B4C2FF2007C8919 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7312B4C2FF2007C8919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA74F2B4C2FF2007C8919 /* background.js in Resources */,
+				C5FFA7552B4C2FF2007C8919 /* popup.css in Resources */,
+				C5FFA7532B4C2FF2007C8919 /* popup.html in Resources */,
+				C5FFA74B2B4C2FF2007C8919 /* images in Resources */,
+				C5FFA74D2B4C2FF2007C8919 /* manifest.json in Resources */,
+				C5FFA7492B4C2FF2007C8919 /* _locales in Resources */,
+				C5FFA7512B4C2FF2007C8919 /* content.js in Resources */,
+				C5FFA7572B4C2FF2007C8919 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FFA7072B4C2FF1007C8919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA7422B4C2FF2007C8919 /* ViewController.swift in Sources */,
+				C5FFA70F2B4C2FF1007C8919 /* AppDelegate.swift in Sources */,
+				C5FFA7112B4C2FF1007C8919 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7192B4C2FF2007C8919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA7432B4C2FF2007C8919 /* ViewController.swift in Sources */,
+				C5FFA7202B4C2FF2007C8919 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA7252B4C2FF2007C8919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA7462B4C2FF2007C8919 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFA72F2B4C2FF2007C8919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFA7472B4C2FF2007C8919 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5FFA72C2B4C2FF2007C8919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FFA7282B4C2FF2007C8919 /* No Youtube Shorts Extension (iOS) */;
+			targetProxy = C5FFA72B2B4C2FF2007C8919 /* PBXContainerItemProxy */;
+		};
+		C5FFA7362B4C2FF2007C8919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FFA7322B4C2FF2007C8919 /* No Youtube Shorts Extension (macOS) */;
+			targetProxy = C5FFA7352B4C2FF2007C8919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5FFA6F52B4C2FED007C8919 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FFA6F62B4C2FED007C8919 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C5FFA7122B4C2FF1007C8919 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FFA7132B4C2FF1007C8919 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FFA7152B4C2FF1007C8919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FFA7162B4C2FF1007C8919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FFA7212B4C2FF2007C8919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FFA7222B4C2FF2007C8919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FFA7582B4C2FF2007C8919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5FFA7592B4C2FF2007C8919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C5FFA75B2B4C2FF2007C8919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts.Extension";
+				PRODUCT_NAME = "No Youtube Shorts Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FFA75C2B4C2FF2007C8919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts.Extension";
+				PRODUCT_NAME = "No Youtube Shorts Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FFA75F2B4C2FF2007C8919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts";
+				PRODUCT_NAME = "No Youtube Shorts";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FFA7602B4C2FF2007C8919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts";
+				PRODUCT_NAME = "No Youtube Shorts";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FFA7622B4C2FF2007C8919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/No Youtube Shorts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts.Extension";
+				PRODUCT_NAME = "No Youtube Shorts Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5FFA7632B4C2FF2007C8919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/No Youtube Shorts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts.Extension";
+				PRODUCT_NAME = "No Youtube Shorts Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C5FFA7662B4C2FF2007C8919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/No Youtube Shorts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts";
+				PRODUCT_NAME = "No Youtube Shorts";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5FFA7672B4C2FF2007C8919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/No Youtube Shorts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K29MSNV5QP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "No Youtube Shorts";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guillaumeclaverie.No-Youtube-Shorts";
+				PRODUCT_NAME = "No Youtube Shorts";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FFA6F22B4C2FED007C8919 /* Build configuration list for PBXProject "No Youtube Shorts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFA7582B4C2FF2007C8919 /* Debug */,
+				C5FFA7592B4C2FF2007C8919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FFA75A2B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFA75B2B4C2FF2007C8919 /* Debug */,
+				C5FFA75C2B4C2FF2007C8919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FFA75E2B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFA75F2B4C2FF2007C8919 /* Debug */,
+				C5FFA7602B4C2FF2007C8919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FFA7612B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFA7622B4C2FF2007C8919 /* Debug */,
+				C5FFA7632B4C2FF2007C8919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FFA7652B4C2FF2007C8919 /* Build configuration list for PBXNativeTarget "No Youtube Shorts (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFA7662B4C2FF2007C8919 /* Debug */,
+				C5FFA7672B4C2FF2007C8919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FFA6EF2B4C2FED007C8919 /* Project object */;
+}
