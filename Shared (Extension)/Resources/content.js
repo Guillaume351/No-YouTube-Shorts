@@ -17,8 +17,16 @@ function removeShortsMiniMenuItem() {
     }
 }
 
+function removeShortsReelShelf() {
+    document.querySelectorAll('ytd-reel-shelf-renderer').forEach(item => {
+        item.remove();
+        console.log("Removed Shorts reel shelf");
+    });
+}
+
 function hideYouTubeShortsElements() {
-    console.log("Hiding")
+    console.log("Hiding");
+
     // Hide the Shorts menu in the sidebar
     document.querySelectorAll('ytd-guide-renderer:not([data-processed])').forEach(item => {
         if (item.querySelector('a[title="Shorts"]')) {
@@ -41,6 +49,7 @@ function hideYouTubeShortsElements() {
     // Attempt to remove the Shorts menu item
     removeShortsMenuItem();
     removeShortsMiniMenuItem();
+    removeShortsReelShelf();
 }
 
 function removeShortsHeader() {
