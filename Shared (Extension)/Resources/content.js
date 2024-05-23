@@ -24,6 +24,26 @@ function removeShortsReelShelf() {
     });
 }
 
+function removeShortsFromSearchResults() {
+    document.querySelectorAll('ytd-video-renderer').forEach(video => {
+        const badge = video.querySelector('ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]');
+        if (badge) {
+            video.remove();
+            console.log("Removed a Shorts video from search results");
+        }
+    });
+}
+
+function removeShortsSearchFilter() {
+    document.querySelectorAll('yt-chip-cloud-chip-renderer').forEach(chip => {
+        const textElement = chip.querySelector('#text');
+        if (textElement && textElement.title === 'Shorts') {
+            chip.remove();
+            console.log("Removed Shorts search filter");
+        }
+    });
+}
+
 function hideYouTubeShortsElements() {
     console.log("Hiding");
 
@@ -45,6 +65,12 @@ function hideYouTubeShortsElements() {
         video.setAttribute('data-processed', 'true');
         console.log("Removed a Shorts video");
     });
+
+    // Hide Shorts from search results
+    removeShortsFromSearchResults();
+
+    // Hide Shorts search filter
+    removeShortsSearchFilter();
 
     // Attempt to remove the Shorts menu item
     removeShortsMenuItem();
