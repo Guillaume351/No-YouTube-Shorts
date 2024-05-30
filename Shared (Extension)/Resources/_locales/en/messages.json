@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "No YouTube Shorts",
-        "description": "No YouTube Shorts"
+        "message": "No Shorts : Blocker for YouTube",
+        "description": "No Shorts : Blocker for YouTube"
     },
     "extension_description": {
-        "message": "Hide shorts from YouTube website.",
+        "message": "Hide shorts from YouTube website on Safari.",
         "description": "Automatically removes Shorts sections from all pages from YouTube website."
     }
 }
